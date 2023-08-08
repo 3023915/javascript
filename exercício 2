@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>exercício 2</title>
+</head>
+<body>
+    <div class="h">
+        <h1>exercício 2</h1>
+    </div>
+  
+     <div class="col">
+        <script lang="JavaScript">
+            var dd,cc;
+            
+            do
+            {
+            dd = parseFloat(window.prompt("informe uma aresta do seu quadrado:"));
+            }
+            while (isNaN(dd));
+
+            cc = dd +  dd;
+            
+            document.write("<div class='c'>A área do seu quadrado é: " + cc + "</div>");
+        </script>
+        </div>
+    </div>
+</body>
+</html>
