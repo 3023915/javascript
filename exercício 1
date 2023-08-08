@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+    <script lang="JavaScript">
+        var ec, ex, resultado;
+        do
+        {
+           ec = parseFloat(window.prompt("Informe o primeiro número","0"));
+        }
+        while (isNaN(ec));
+
+        do
+        {
+           ex = parseFloat(window.prompt("Informe o segundo número","0"));
+        }
+        while (isNaN(ex));
+
+        resultado = ec * ex;
+
+        
+        {
+            /*
+           if(resultado<0)
+           {
+              document.write("<p class='vermelho'>"); 
+           }
+           else
+           {
+              document.write("<p class='azul'>"); 
+           }
+           */
+           
+           document.write("A área é " + resultado + "</p>");
+        }
+    </script>
+</body>
+</head>
+</html>
